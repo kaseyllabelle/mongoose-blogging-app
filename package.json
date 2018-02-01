@@ -1,0 +1,32 @@
+{
+  "name": "mongoose-blogging-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "PORT=8080 node server.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaseyllabelle/mongoose-blogging-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "faker": "^3.1.0",
+    "mocha": "^4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/kaseyllabelle/mongoose-blogging-app/issues"
+  },
+  "homepage": "https://github.com/kaseyllabelle/mongoose-blogging-app#readme"
+}
